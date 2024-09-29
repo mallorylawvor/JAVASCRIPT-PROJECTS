@@ -1,13 +1,16 @@
+
+//thsis is a additon function 
 function addition_Function() {
     var addition = 2 + 2;
     document.getElementById("Math").innerHTML = "2 + 2 = " + addition;
 
 }
 
-function substraction_Function() {
+function subtraction_Function() {
     var Subtraction = 5 - 2;
     document.getElementById("math").innerHTML = "5 - 2 = " + Subtraction;
 }
+//this is a multiplication function 
 function multiplicaton() {
     var simple_Math = 6 * 8;
     document.getElementById("Math").innerHTML = "6 X 8 = " + simple_Math;
@@ -34,7 +37,7 @@ function negative_Operator() {
 }
  var Y = 5;
  Y++;
- document.write(Y):
+ document.write(Y);
 
  var Z = 5.25;
  Z--;
